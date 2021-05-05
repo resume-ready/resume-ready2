@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="shortcut icon" href="img/fav.html" />
+
+    <meta name="author" content="colorlib" />
+
+    <meta name="description" content="" />
+
+    <meta name="keywords" content="" />
+
+    <meta charset="UTF-8" />
+
+    <title>Menu</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/stylemeunu.css" />
+    <script src="./js/appmenu.js" async></script>
+  </head>
+
+  <body>
+    <section class="banner-area relative">
+      <div class="wrapper">
+        <div class="sidebar">
+          <img
+            style="width: 120px; align-items: center; margin-left: 45px"
+            src="./img/logo2.png"
+            alt=""
+          />
+          <ul>
+            <li>
+              <a href="./index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="./menu.html"><i class="fas fa-bars"></i> Menu</a>
+            </li>
+            <li>
+              <a href="./feedback.html"
+                ><i class="fas fa-check-circle"></i> feedback</a
+              >
+            </li>
+            <li>
+              <a href="./AboutUs.html"
+                ><i class="far fa-id-badge"></i> About us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="overlay overlay-bg"></div>
+      <div class="container">
+        <div class="row fullscreen align-items-center justify-content-between">
+          <div
+            style="margin-left: 300px; text-align: center; margin-top: 300px"
+            class="col-lg-6 col-md-6 banner-left"
+          >
+            <h1 class="text-white">Menu</h1>
+            <h6 class="text-white">
+              You can Order ferm our Delicious Food Here Just Click-In
+            </h6>
+            <br />
+            <a href="#order-from-here" class="primary-btn text-uppercase"
+              >Go To Menu</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular-destination-area section-gap col-2">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-70 col-lg-8">
+            <div class="title text-center">
+              <h1 id="order-from-here" class="mb-10">Main Dishes</h1>
+              <p>Choose From Our Dishes Collection,Order you best Dishes</p>
+            </div>
+          </div>
+        </div>
+        <div class="row main-dishes"></div>
+      </div>
+    </section>
+
+    <section class="other-issue-area section-gap col-2">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="menu-content pb-70 col-lg-9">
+            <div class="title text-center">
+              <h1 class="mb-10">Appetizers</h1>
+              <p id="itemCount"></p>
+              <p>Choose from our delicious appetizers collection</p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-meal"></div>
+      </div>
+    </section>
+
+    <section
+      align="center"
+      style="align-items: center; margin-top: 150px; margin-left: 400px"
+      class="container content-section"
+    >
+      <h2 class="section-header" style="font-size: 40px">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total"></div>
+      <a
+        style="width: 200px"
+        href="./feedback.html"
+        class="btn btn-primary btn-purchase"
+        type="button"
+        onclick="removeTotal()"
+      >
+        Purchase
+      </a>
+    </section>
+
+    <footer class="footer-area section-gap col-2">
+      <div
+        class="container"
+        style="text-align: center; margin-bottom: 20px; padding-top: 20px"
+      >
+        <br />
+        <p class="footerpara">
+          Copyright &copy; 2021 All rights reserved | This project made by
+          <span>Debugs catchers</span>.
+        </p>
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-behance"></i></a>
+          </li>
+          <br />
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/9e5d1913ca.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
