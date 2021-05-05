@@ -88,8 +88,7 @@ const startMeals = [
 
   {
     id: 10,
-    filePath:
-      "https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-PWnw423Hhu.jpg",
+    filePath: "../img/maqlouba.jpg",
     name: "Maqlooba",
     price: "7",
     main: true,
