@@ -88,8 +88,7 @@ const startMeals = [
 
   {
     id: 10,
-    filePath:
-      "https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-6QgnXLS78ZD2.jpg",
+    filePath: "../img/maqlouba.jpg",
     name: "Maqlooba",
     price: "7",
     main: true,
@@ -98,8 +97,7 @@ const startMeals = [
 
   {
     id: 11,
-    filePath:
-      "https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-resize-TJGrNjTmfByh3z1.jpg",
+    filePath: "../img/zarp.jpg",
     name: "Zarp",
     price: "7",
     main: true,
@@ -118,8 +116,7 @@ const startMeals = [
 
   {
     id: 13,
-    filePath:
-      "https://www.imgonline.com.ua/result_img/imgonline-com-ua-resize-MaBEaoZJsQHG1V7.jpg",
+    filePath: "../img/makmora.jpg",
     name: "Makmora",
     price: "7",
     main: true,
