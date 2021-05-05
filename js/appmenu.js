@@ -88,7 +88,7 @@ const startMeals = [
 
   {
     id: 10,
-    filePath: "../img/maqlouba.jpg",
+    filePath: "./img/maqlouba.jpg",
     name: "Maqlooba",
     price: "7",
     main: true,
@@ -97,7 +97,7 @@ const startMeals = [
 
   {
     id: 11,
-    filePath: "../img/zarp.jpg",
+    filePath: "./img/zarp.jpg",
     name: "Zarp",
     price: "7",
     main: true,
@@ -116,7 +116,7 @@ const startMeals = [
 
   {
     id: 13,
-    filePath: "../img/makmora.jpg",
+    filePath: "./img/makmora.jpg",
     name: "Makmora",
     price: "7",
     main: true,
